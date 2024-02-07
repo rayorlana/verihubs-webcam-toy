@@ -2,6 +2,7 @@ import { useEffect, useId, useRef } from 'react';
 import { MAX_CANVAS_HEIGHT, MAX_CANVAS_WIDTH } from '../utils/constants';
 import { applyTextureEffect, isFilterEffect, isTextureEffect } from '../utils/webcam';
 import { FilterEffect, TextureEffect, WebcamEffect } from '../utils/types';
+import useWindowSize from '../hooks/useWindowSize';
 
 let animationFrameId: number;
 
@@ -13,8 +14,10 @@ interface Props {
 }
 
 const Webcam: React.FC<Props> = ({ id, mirrored = true, square = false, effect = 'normal' }) => {
+  const { width } = useWindowSize();
+  const isMobile = width < 768;
   const canvasRef = useRef<HTMLCanvasElement>(null);
-  const aspectRatio = 4 / 3;
+  const aspectRatio = isMobile ? 1 : 4 / 3;
   const canvasWidth = MAX_CANVAS_WIDTH;
   const canvasHeight = MAX_CANVAS_HEIGHT;
   const canvasWrapperId = useId();
