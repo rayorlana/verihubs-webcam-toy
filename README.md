@@ -68,6 +68,7 @@ Features:
 - `src/components/` - Reusable components
 - `src/modules/` - Top level wrapper component or page component. This directory can also have it's own components dir for module specific components
 - `src/utils/` - Helper/utility functions, constants, typescript interfaces/types
+- `src/hooks/` - Custom React Hooks
 
 ## References
 - [React](https://react.dev/)
