@@ -9,33 +9,7 @@ A replica website of [Webcamtoy.com](https://webcamtoy.com) built with React, Vi
 - TypeScript
 - Tailwind
 
-## Getting Started
-
-### Requirements
-
-- Node v18+
-- npm
-
-### Installation
-
-```bash
-$ npm i
-$ npm run dev
-```
-
-### Other Used Libraries
-- `@headlessui/react` - An unstyled and fully accessible UI components to help build our own accessible component library.
-- `react-icons`
-- `eslint` - Code linting to help enforce code style for this project
-- `prettier` - to help standardize code style and formatting for a more consistent and readable codebase
-
-### Recommended VSCode Extensions
-- [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint) - Code linting to help enforce code style for the repository
-- [Tailwind CSS IntelliSense](https://marketplace.visualstudio.com/items?itemName=bradlc.vscode-tailwindcss) - Tailwind autocomplete, syntax highlighting, and linting
-- [Prettier - Code formatter](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode) - For consistent code styling and autoformatting. simply install and enable the extension. The extension will automatically read the prettier config for the Code Styling Rule
-
-
-### Verihubs Webcamtoy Features
+## Verihubs Webcamtoy Features
 
 A replica website of [Webcamtoy.com](https://webcamtoy.com) built with React, Vite, TypeScript, Tailwind CSS, and leveraging Web Browser Canvas API for it's main feature.
 
@@ -69,6 +43,31 @@ Features:
 - `src/modules/` - Top level wrapper component or page component. This directory can also have it's own components dir for module specific components
 - `src/utils/` - Helper/utility functions, constants, typescript interfaces/types
 - `src/hooks/` - Custom React Hooks
+
+## Getting Started
+
+### Requirements
+
+- Node v18+
+- npm
+
+### Installation
+
+```bash
+$ npm i
+$ npm run dev
+```
+
+### Other Used Libraries
+- `@headlessui/react` - An unstyled and fully accessible UI components to help build our own accessible component library.
+- `react-icons`
+- `eslint` - Code linting to help enforce code style for this project
+- `prettier` - to help standardize code style and formatting for a more consistent and readable codebase
+
+### Recommended VSCode Extensions
+- [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint) - Code linting to help enforce code style for the repository
+- [Tailwind CSS IntelliSense](https://marketplace.visualstudio.com/items?itemName=bradlc.vscode-tailwindcss) - Tailwind autocomplete, syntax highlighting, and linting
+- [Prettier - Code formatter](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode) - For consistent code styling and autoformatting. simply install and enable the extension. The extension will automatically read the prettier config for the Code Styling Rule
 
 ## References
 - [React](https://react.dev/)
